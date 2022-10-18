@@ -73,7 +73,7 @@ body {
 .coolBeans {
   border: 2px solid currentColor;
   border-radius: 3rem;
-  /*color: rgb(255, 255, 255);*/
+  color: blanchedalmond;
   font-family: roboto;
   font-size: 1rem;
   font-weight: 100;
@@ -86,7 +86,7 @@ body {
   z-index: 0;
 }
 .coolBeans::after {
-  background-color: rgb(180, 173, 167);
+  background-color: blanchedalmond;
   border-radius: 3rem;
   content: '';
   display: block;
@@ -106,7 +106,7 @@ body {
 }
 .coolBeans:hover {
   border: 2px solid transparent;
-  color: #4b0082;
+  color: blanchedalmond;
   transform: scale(1.05);
   will-change: transform;
 }
